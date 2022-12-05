@@ -12,7 +12,7 @@
             "value": "678a3c6d-85de-47bd-a1b4-62126c3d03cd"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/yzcmaron060/gyrd22222/blob/master/etc/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/kk3948/arsegugd/blob/master/etc/CADDYIndexPage.md",
             "value": "https://github.com/wulabing/3DCEList/archive/master.zip"
         },
         "CONFIGCADDY": {
