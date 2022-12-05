@@ -2,11 +2,11 @@
 
 # configs
 AUUID=678a3c6d-85de-47bd-a1b4-62126c3d03cd
-CADDYIndexPage=https://github.com/yzcmaron060/vhrtj/archive/refs/heads/main.zip
-CONFIGCADDY=https://raw.githubusercontent.com/kk3948/arsegugd/master/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/kk3948/arsegugd/master/etc/xray.json
+CADDYIndexPage=https://github.com/Externalizable/bongo.cat/archive/master.zip
+CONFIGCADDY=https://raw.githubusercontent.com/yzcmaron060/gyrd22222/master/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/yzcmaron060/gyrd22222/master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/kk3948/arsegugd/master/etc/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/yzcmaron060/gyrd22222/master/etc/StoreFiles
 #PORT=4433
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
 wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/caddy/index.html -d /usr/share/caddy/ && mv /usr/share/caddy/*/* /usr/share/caddy/
@@ -27,3 +27,4 @@ tor &
 /xray -config /xray.json &
 
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+
